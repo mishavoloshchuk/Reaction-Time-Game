@@ -19,7 +19,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: '${{ secrets.API_TOKEN_GITHUB }}'
         # You may pin to the exact commit or the version.
-        # uses: XenonMolecule/github-action-push-to-another-repository@de389add933e78b040fd9274822bd171ac87b26e
+        # uses: notpresident35/copy_large_folder_to_another_repo_action@80f614525ae4ffb75699ae3f543f26979353924c
         uses: datalbry/copy_folder_to_another_repo_action@1.0.0
         with:
           # Source directory from the origin directory
