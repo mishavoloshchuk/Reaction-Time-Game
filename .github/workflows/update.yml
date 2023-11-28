@@ -28,7 +28,7 @@ jobs:
           destination-directory: 'projects/Reaction-Time-Game'
           commit-email: 'voloshchuk123@gmail.com'
           # [Optional] set target branch name for the destination repository. Defaults to "master" for historical reasons
-          destination_branch: 'main' # optional, default is master
+          destination-branch: 'main' # optional, default is master
 #           # Source directory from the origin directory
 #           source_file: '.'
 #           # Destination repository
