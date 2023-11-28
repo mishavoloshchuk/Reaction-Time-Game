@@ -1,5 +1,5 @@
 $('document').ready(function(){
-	$('.h1').html('Тест на реакцию');
+	$('.h1').html('Тест на реакцію');
 	var t1;
 	var t2;
 	var state = false;
@@ -49,7 +49,7 @@ $('document').ready(function(){
 			} else {
 				t1 = Date.now();
 				$(this).css({transition: '0.5s', background: '#83F054'});
-				$('.h1').html('Слишком быстро! Еще:'+ (t2 - t1)+'мс');
+				$('.h1').html('Надто швидко! Ще:'+ (t2 - t1)+'мс');
 				state = false;
 				clearTimeout(time);
 				clearTimeout(sound);
@@ -63,7 +63,7 @@ $('document').ready(function(){
 			state = true;
 			now = true;
 			t1 = Date.now();
-			$('.h1').html('КЛИКАЙ!');
+			$('.h1').html('КЛІКАЙ!');
 			$('.screen').css({transition: '0s', background: '#FF4015'});
 		};
 
@@ -83,7 +83,6 @@ $('document').ready(function(){
 	$('*').bind('contextmenu', function(e) {
 		return false;
 	});
-
 		var audio = new Audio(); // Создаём новый элемент Audio
 		audio.src = '/music/music.mp3'; // Указываем путь к звуку "клика"
 		audio.autoplay = true; // Автоматически запускаем
