@@ -25,14 +25,14 @@ jobs:
           # Source directory from the origin directory
           source_folder: 'css'
           # Name of the destination
-          user_name: mishavoloshchuk
+          user_name: 'mishavoloshchuk'
           # Destination repository
           destination_repo: 'mishavoloshchuk/mishavoloshchuk.github.io'
           # Email for the git commit
-          user_email: actions@github.com
+          user_email: 'voloshchuk123@gmail.com'
           # [Optional] set target branch name for the destination repository. Defaults to "master" for historical reasons
-          destination_branch: main # optional, default is master
+          destination_branch: 'main' # optional, default is master
           # [Optional] commit message for the output repository. ORIGIN_COMMIT is replaced by the URL@commit in the origin repo
 #          commit_msg: # optional, default is Update from ORIGIN_COMMIT
           # [Optional] The directory to wipe and replace in the target repository
-          destination_folder: projects/Reaction-Time-Game # optional, default is .
+          destination_folder: 'projects/Reaction-Time-Game' # optional, default is .
