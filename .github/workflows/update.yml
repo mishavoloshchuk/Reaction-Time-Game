@@ -23,7 +23,7 @@ jobs:
         uses: datalbry/copy_folder_to_another_repo_action@1.0.0
         with:
           # Source directory from the origin directory
-          source_folder: '.'
+          source_folder: 'css'
           # Name of the destination
           user_name: mishavoloshchuk
           # Destination repository
