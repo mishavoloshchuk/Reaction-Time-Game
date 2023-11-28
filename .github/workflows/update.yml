@@ -14,7 +14,7 @@ jobs:
       - name: Checkout Reaction-Time-Game Repository
         uses: actions/checkout@v2
 
-      - name: Push directory to another repository directory
+      - name: Push multiple files or folders to another repository
         # GitHub access token
         env:
           API_TOKEN_GITHUB: '${{ secrets.API_TOKEN_GITHUB }}'
@@ -31,7 +31,7 @@ jobs:
           # Email for the git commit
           user_email: 'voloshchuk123@gmail.com'
           # Name of the destination
-          user_name: 'actions_bot'
+          user_name: 'mishavoloshchuk'
           # [Optional] set target branch name for the destination repository. Defaults to "master" for historical reasons
           destination_branch: 'main' # optional, default is master
           # [Optional] commit message for the output repository. ORIGIN_COMMIT is replaced by the URL@commit in the origin repo
